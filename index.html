@@ -11,14 +11,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <!-- Roboto - Crimson -->
     <link
         href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 
+    <!-- Tabler icon -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/1.35.0/iconfont/tabler-icons.min.css"
+        integrity="sha512-tpsEzNMLQS7w9imFSjbEOHdZav3/aObSESAL1y5jyJDoICFF2YwEdAHOPdOr1t+h8hTzar0flphxR76pd0V1zQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Google font -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- SwiperJS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
@@ -30,12 +46,17 @@
 
 <body>
     <div id="wrapper">
+        <!-- Part on the top -->
         <div id="top">
+            <!-- Navigation bar -->
             <nav id="navigation" class="container d-flex justify-content-between align-items-center p-0">
+                <!-- Navigation Logo -->
                 <div class="navigation-logo">
                     <img src="/assets/img/Logo.png" alt="Logo" width="60px;">
                 </div>
+                <!-- Navigation main -->
                 <div class="d-flex align-items-center gap36">
+                    <!-- Navigation link -->
                     <div class="navigation-list list-unstyled d-flex">
                         <div class="navigation-list-item custom-button">
                             <a href="#" class="text-decoration-none text-dark">Trang chủ</a>
@@ -50,6 +71,7 @@
                             <a href="#" class="text-decoration-none text-dark">Liên hệ</a>
                         </div>
                     </div>
+                    <!-- Log in, sign up button -->
                     <div class="navigation-button d-flex">
                         <a href="#">
                             <div class="navigation-button-item custom-button custom-button-outline-primary">
@@ -64,7 +86,10 @@
                     </div>
                 </div>
             </nav>
+
+            <!-- Main part of top -->
             <div class="d-flex container align-items-center" style="height: calc(100% - 80px);">
+                <!-- Content -->
                 <div id="top-text" class="d-flex flex-column gap36 w-50 ms24">
                     <div class="d-flex flex-column">
                         <span class="fw-medium crimson" style="font-size: 60px; height: 68px;">Răng chắc khỏe</span>
@@ -75,29 +100,36 @@
                     <p>Sức khỏe răng miệng của bạn là ưu tiên hàng đầu của chúng tôi</p>
                     <p>Chúng tôi cam kết giúp bạn có một nụ cười đẹp như mơ và sức khỏe răng miệng tuyệt vời nhất</p>
                     <a href="#">
-                        <div class="d-flex custom-button custom-button-primary">
+                        <div class="d-flex custom-button-icon-left custom-button-primary">
                             <i class="fa-sharp fa-solid fa-paper-plane"></i>
                             Đặt lịch
                         </div>
                     </a>
                 </div>
+                <!-- IMG -->
                 <div id="top-img">
                     <img src="/assets/img/homepage/topbg.png" alt="IMG">
                 </div>
             </div>
         </div>
+        <!-- Part on the top end -->
 
+        <!-- Why us -->
         <div id="whyus" class="container mt80 mb80 d-flex flex-column align-items-center justify-content-center gap36">
-            <span class="crimson fw-semibold">Vì sao nên chọn chúng tôi</span>
+            <!-- Title -->
+            <span class="crimson fw-semibold text-capitalize">Vì sao nên chọn chúng tôi</span>
+            <!-- Why us item -->
             <div class="whyus-item d-flex align-items-center justify-content-between gap80 py12">
                 <img src="/assets/img/homepage/whyus1.png" alt="IMG">
                 <div class="whyus-item-text d-flex flex-column gap12">
-                    <p class="fw-semibold fs16" style="color: var(--main-color);">Đội ngũ bác sĩ chuyên nghiệp và chuyên môn cao</p>
+                    <p class="fw-semibold fs16" style="color: var(--main-color);">Đội ngũ bác sĩ chuyên nghiệp và chuyên
+                        môn cao</p>
                     <p>Phòng khám nha khoa chuyên nghiệp, có đội ngũ bác sĩ giàu kinh nghiệm và trình độ chuyên môn cao.
                         Các bác sĩ có chẩn đoán và điều trị các vấn đề về răng miệng của bạn một cách chính xác và hiệu
                         quả nhất.</p>
                 </div>
             </div>
+            <!-- Why us item -->
             <div class="whyus-item d-flex align-items-center justify-content-between gap80 py12">
                 <img src="/assets/img/homepage/whyus2.png" alt="IMG">
                 <div class="whyus-item-text d-flex flex-column gap12">
@@ -106,6 +138,7 @@
                         nhằm đảm bảo rằng bạn được điều trị với công nghệ cao nhất, an toàn nhất và tiện lợi nhất.</p>
                 </div>
             </div>
+            <!-- Why us item -->
             <div class="whyus-item d-flex align-items-center justify-content-between gap80 py12">
                 <img src="/assets/img/homepage/whyus3.png" alt="IMG">
                 <div class="whyus-item-text d-flex flex-column gap12">
@@ -118,11 +151,348 @@
                 </div>
             </div>
         </div>
+
+        <!-- Services -->
+        <div id="services"
+            class="container mt80 pb80 d-flex flex-column align-items-center justify-content-center gap36"
+            style="background-color: rgba(219, 234, 254, 1);">
+            <!-- Title -->
+            <div id="services-title" class="mt80 d-flex flex-column gap24 align-items-center">
+                <span class="crimson fw-semibold text-capitalize">Dịch vụ</span>
+                <span class="w-50 text-center crimson-secondary" style="color: var(--secondary-color)">Với đội ngũ bác
+                    sĩ nha khoa giàu kinh nghiệm và trang thiết bị hiện đại, chúng tôi cam kết cung
+                    cấp các dịch vụ nha khoa chất lượng cao để giúp bạn có một nụ cười tươi sáng và răng miệng khỏe
+                    mạnh.</span>
+            </div>
+            <!-- Item container -->
+            <div id="services-itemcontainer">
+                <!-- Row 1 -->
+                <div class="d-flex gap24">
+                    <!-- Item -->
+                    <div
+                        class="services-itemcontainer-item bg-white d-flex flex-column align-items-center px36 py12 gap12">
+                        <!-- Icon -->
+                        <div class="services-itemcontainer-item-icon rounded-5 d-flex align-items-center justify-content-center"
+                            style="background-color: var(--main-color);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dental"
+                                width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 5.5c-1.074 -.586 -2.583 -1.5 -4 -1.5c-2.1 0 -4 1.247 -4 5c0 4.899 1.056 8.41 2.671 10.537c.573 .756 1.97 .521 2.567 -.236c.398 -.505 .819 -1.439 1.262 -2.801c.292 -.771 .892 -1.504 1.5 -1.5c.602 0 1.21 .737 1.5 1.5c.443 1.362 .864 2.295 1.262 2.8c.597 .759 2 .993 2.567 .237c1.615 -2.127 2.671 -5.637 2.671 -10.537c0 -3.74 -1.908 -5 -4 -5c-1.423 0 -2.92 .911 -4 1.5z">
+                                </path>
+                                <path d="M12 5.5l3 1.5"></path>
+                            </svg>
+                        </div>
+                        <!-- Title -->
+                        <span class="fw-semibold fs22">Kiểm tra răng miệng</span>
+                        <!-- Content -->
+                        <p class="text-center">Khám răng miệng là quá trình kiểm tra tổng quan về sức khỏe răng miệng,
+                            bao
+                            gồm kiểm tra
+                            răng, nướu và xương hàm để phát hiện các vấn đề sớm và ngăn ngừa các vấn đề về răng miệng.
+                        </p>
+                    </div>
+                    <!-- Item -->
+                    <div
+                        class="services-itemcontainer-item bg-white d-flex flex-column align-items-center px36 py12 gap12">
+                        <!-- Icon -->
+                        <div class="services-itemcontainer-item-icon rounded-5 d-flex align-items-center justify-content-center position-relative"
+                            style="background-color: rgba(52, 211, 153, 1);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dental"
+                                width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 5.5c-1.074 -.586 -2.583 -1.5 -4 -1.5c-2.1 0 -4 1.247 -4 5c0 4.899 1.056 8.41 2.671 10.537c.573 .756 1.97 .521 2.567 -.236c.398 -.505 .819 -1.439 1.262 -2.801c.292 -.771 .892 -1.504 1.5 -1.5c.602 0 1.21 .737 1.5 1.5c.443 1.362 .864 2.295 1.262 2.8c.597 .759 2 .993 2.567 .237c1.615 -2.127 2.671 -5.637 2.671 -10.537c0 -3.74 -1.908 -5 -4 -5c-1.423 0 -2.92 .911 -4 1.5z">
+                                </path>
+                                <path d="M12 5.5l3 1.5"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sparkles position-absolute" width="12" height="12"
+                                viewBox="0 0 56 56" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" style="left: 45%; top: 30%;">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6z">
+                                </path>
+                            </svg>
+                        </div>
+                        <!-- Title -->
+                        <span class="fw-semibold fs22">Tẩy trắng răng</span>
+                        <!-- Content -->
+                        <p class="text-center">Tẩy trắng răng là phương pháp làm sáng răng bằng cách loại bỏ các vết bẩn
+                            và
+                            mảng bám trên bề mặt răng.
+                        </p>
+                    </div>
+                    <!-- Item -->
+                    <div
+                        class="services-itemcontainer-item bg-white d-flex flex-column align-items-center px36 py12 gap12">
+                        <!-- Icon -->
+                        <div class="services-itemcontainer-item-icon rounded-5 d-flex align-items-center justify-content-center"
+                            style="background-color: rgba(239, 68, 68, 1);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dental-broken"
+                                width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 5.5c-1.074 -.586 -2.583 -1.5 -4 -1.5c-2.1 0 -4 1.247 -4 5c0 4.899 1.056 8.41 2.671 10.537c.573 .756 1.97 .521 2.567 -.236c.398 -.505 .819 -1.439 1.262 -2.801c.292 -.771 .892 -1.504 1.5 -1.5c.602 0 1.21 .737 1.5 1.5c.443 1.362 .864 2.295 1.262 2.8c.597 .759 2 .993 2.567 .237c1.615 -2.127 2.671 -5.637 2.671 -10.537c0 -3.74 -1.908 -5 -4 -5c-1.423 0 -2.92 .911 -4 1.5z">
+                                </path>
+                                <path d="M12 5.5l1 2.5l-2 2l2 2"></path>
+                            </svg>
+                        </div>
+                        <!-- Title -->
+                        <span class="fw-semibold fs22">Trám răng</span>
+                        <!-- Content -->
+                        <p class="text-center">Trám răng là quá trình sửa chữa răng bị hỏng bằng cách sử dụng các vật
+                            liệu
+                            chuyên dụng.
+                        </p>
+                    </div>
+                </div>
+                <!-- Row 2 -->
+                <div class="d-flex gap24 mt36">
+                    <!-- Item -->
+                    <div
+                        class="services-itemcontainer-item bg-white d-flex flex-column align-items-center px36 py12 gap12">
+                        <!-- Icon -->
+                        <div class="services-itemcontainer-item-icon rounded-5 d-flex align-items-center justify-content-center"
+                            style="background-color: rgba(120, 53, 15, 1);">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                style="width: 32px; height: 32px;">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M11.972 20.25h-7.5v1.5a1.5 1.5 0 0 0 1.5 1.5h4.5a1.5 1.5 0 0 0 1.5-1.5v-1.5Zm0 0h-7.5L1.738 2.478A1.5 1.5 0 0 1 3.221.75h10a1.5 1.5 0 0 1 1.482 1.728L11.972 20.25Zm8.308 3v-11l2-3v-8m-4 1h4m-4 3h4m-4 3h4m-14-2v6m-3-3h6" />
+                            </svg>
+                        </div>
+                        <!-- Title -->
+                        <span class="fw-semibold fs22">Lấy cao răng</span>
+                        <!-- Content -->
+                        <p class="text-center">Lấy cao răng là quá trình loại bỏ các cặp vôi và mảng bám dưới chân răng
+                            và
+                            xung quanh nướu để giảm sâu răng và viêm nướu.
+                        </p>
+                    </div>
+                    <!-- Item -->
+                    <div
+                        class="services-itemcontainer-item bg-white d-flex flex-column align-items-center px36 py12 gap12">
+                        <!-- Icon -->
+                        <div class="services-itemcontainer-item-icon rounded-5 d-flex align-items-center justify-content-center"
+                            style="background-color: rgba(124, 58, 237, 1);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dental-off"
+                                width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M19.277 15.281c.463 -1.75 .723 -3.844 .723 -6.281c0 -3.74 -1.908 -5 -4 -5c-1.423 0 -2.92 .911 -4 1.5c-1.074 -.586 -2.583 -1.5 -4 -1.5m-2.843 1.153c-.707 .784 -1.157 2.017 -1.157 3.847c0 4.899 1.056 8.41 2.671 10.537c.573 .756 1.97 .521 2.567 -.236c.398 -.505 .819 -1.439 1.262 -2.801c.292 -.771 .892 -1.504 1.5 -1.5c.602 0 1.21 .737 1.5 1.5c.443 1.362 .864 2.295 1.262 2.8c.597 .759 2 .993 2.567 .237c.305 -.402 .59 -.853 .852 -1.353">
+                                </path>
+                                <path d="M12 5.5l3 1.5"></path>
+                                <path d="M3 3l18 18"></path>
+                            </svg>
+                        </div>
+                        <!-- Title -->
+                        <span class="fw-semibold fs22">Nhổ răng</span>
+                        <!-- Content -->
+                        <p class="text-center">Nhổ răng là loại bỏ răng sửa dành cho trẻ nhỏ cũng như răng sâu, răng mọc
+                            xấu, răng khôn.
+                        </p>
+                    </div>
+                    <!-- Item -->
+                    <div
+                        class="services-itemcontainer-item bg-white d-flex flex-column align-items-center px36 py12 gap12">
+                        <!-- Icon -->
+                        <div class="services-itemcontainer-item-icon rounded-5 d-flex align-items-center justify-content-center"
+                            style="background-color: rgba(4, 120, 87, 1)">
+                            <span class="material-symbols-outlined text-white" style="font-size: 40px;">
+                                auto_awesome_motion
+                            </span>
+                        </div>
+                        <!-- Title -->
+                        <span class="fw-semibold fs22">Niềng răng</span>
+                        <!-- Content -->
+                        <p class="text-center">Niềng răng là quá trình điều chỉnh vị trí của răng để cải thiện hàm răng
+                            và
+                            ngoại hình của bệnh nhân.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- Button more -->
+            <div id="services-buttonmore">
+                <a href="#">
+                    <div class="custom-button-icon-right custom-button-primary d-flex align-items-center rounded-5">
+                        Xem thêm
+                        <span class="material-symbols-outlined">
+                            more_horiz
+                        </span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Feedback -->
+        <div id="feedback" class="container mt80">
+            <!-- Title -->
+            <div id="feedback-title" class="mt80 d-flex flex-column gap24 align-items-center">
+                <span class="crimson fw-semibold text-capitalize">phản hồi của khách hàng</span>
+                <span class="w-50 text-center crimson-secondary" style="color: var(--secondary-color)">Lắng nghe những
+                    đánh giá của những khách hàng về trải nghiệm của họ với dịch vụ nha khoa của chúng tôi. Chúng tôi
+                    luôn đặt chất lượng dịch vụ và sự hài lòng của khách hàng lên hàng đầu và mong muốn mang đến cho mọi
+                    người một trải nghiệm tốt nhất có thể.</span>
+            </div>
+            <div id="feedback-content">
+                <!-- Swiper -->
+                <div class="swiper mySwiper w-100">
+                    <div class="swiper-wrapper my36 mx24">
+                        <!-- Item -->
+                        <div
+                            class="swiper-slide d-flex flex-column align-items-center justify-content-center gap12 py12 px36">
+                            <!-- Avatar -->
+                            <img src="/assets/img/homepage/Ellipse-1.png" alt="Avatar"
+                                style="width: 100px; height: 100px;">
+                            <!-- Name -->
+                            <span class="fw-semibold fs22">Lê Văn Bự</span>
+                            <!-- Content -->
+                            <p class="text-center">Tôi đã sử dụng dịch vụ nhổ răng tại đây và kết quả rất tốt. Không có
+                                đau đớn và quan
+                                trọng là tôi đã hết sợ nha khoa. Răng của tôi giờ đây trắng sáng hơn và tôi cảm thấy tự
+                                tin hơn trong giao tiếp hàng ngày.</p>
+                            <!-- Rating -->
+                            <div style="color: rgba(251, 191, 36, 1);">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <!-- Item -->
+                        <div
+                            class="swiper-slide d-flex flex-column align-items-center justify-content-center gap12 py12 px36">
+                            <!-- Avatar -->
+                            <img src="/assets/img/homepage/Ellipse.png" alt="Avatar"
+                                style="width: 100px; height: 100px;">
+                            <!-- Name -->
+                            <span class="fw-semibold fs22">Nguyễn Thị Bé</span>
+                            <!-- Content -->
+                            <p class="text-center">Tôi rất ấn tượng với sự chuyên nghiệp và hiện đại của nha khoa. Họ
+                                luôn sử dụng những trang thiết bị tân tiến nhất và các kỹ thuật điều trị tiên tiến nhất
+                                để đảm bảo cho khách hàng những kết quả tốt nhất.</p>
+                            <!-- Rating -->
+                            <div style="color: rgba(251, 191, 36, 1);">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <!-- Item -->
+                        <div
+                            class="swiper-slide d-flex flex-column align-items-center justify-content-center gap12 py12 px36">
+                            <!-- Avatar -->
+                            <img src="/assets/img/homepage/Ellipse-2.png" alt="Avatar"
+                                style="width: 100px; height: 100px;">
+                            <!-- Name -->
+                            <span class="fw-semibold fs22">Trần Thị Vừa</span>
+                            <!-- Content -->
+                            <p class="text-center">Dịch vụ của nha khoa rất đa dạng và phong phú, bao gồm cả các dịch vụ
+                                phục hình răng, trồng răng giả, tẩy trắng răng, và nhiều hơn nữa. Tôi cảm thấy tin tưởng
+                                khi sử dụng dịch vụ ở đây vì tôi biết rằng tôi sẽ được hưởng lợi từ sự chuyên nghiệp và
+                                kinh nghiệm của các chuyên gia.</p>
+                            <!-- Rating -->
+                            <div style="color: rgba(251, 191, 36, 1);">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <!-- Item -->
+                        <div
+                            class="swiper-slide d-flex flex-column align-items-center justify-content-center gap12 py12 px36">
+                            <!-- Avatar -->
+                            <img src="/assets/img/homepage/Ellipse-1.png" alt="Avatar"
+                                style="width: 100px; height: 100px;">
+                            <!-- Name -->
+                            <span class="fw-semibold fs22">Trần Văn To</span>
+                            <!-- Content -->
+                            <p class="text-center">Tôi đã sử dụng dịch vụ nhổ răng tại đây và kết quả rất tốt. Không có
+                                đau đớn và quan
+                                trọng là tôi đã hết sợ nha khoa. Răng của tôi giờ đây trắng sáng hơn và tôi cảm thấy tự
+                                tin hơn trong giao tiếp hàng ngày.</p>
+                            <!-- Rating -->
+                            <div style="color: rgba(251, 191, 36, 1);">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <!-- Item -->
+                        <div
+                            class="swiper-slide d-flex flex-column align-items-center justify-content-center gap12 py12 px36">
+                            <!-- Avatar -->
+                            <img src="/assets/img/homepage/Ellipse.png" alt="Avatar"
+                                style="width: 100px; height: 100px;">
+                            <!-- Name -->
+                            <span class="fw-semibold fs22">Lê Thị Mỹ Nhỏ</span>
+                            <!-- Content -->
+                            <p class="text-center">Tôi rất ấn tượng với sự chuyên nghiệp và hiện đại của nha khoa. Họ
+                                luôn sử dụng những trang thiết bị tân tiến nhất và các kỹ thuật điều trị tiên tiến nhất
+                                để đảm bảo cho khách hàng những kết quả tốt nhất.</p>
+                            <!-- Rating -->
+                            <div style="color: rgba(251, 191, 36, 1);">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <!-- Item -->
+                        <div
+                            class="swiper-slide d-flex flex-column align-items-center justify-content-center gap12 py12 px36">
+                            <!-- Avatar -->
+                            <img src="/assets/img/homepage/Ellipse-2.png" alt="Avatar"
+                                style="width: 100px; height: 100px;">
+                            <!-- Name -->
+                            <span class="fw-semibold fs22">Dương Bình Thường</span>
+                            <!-- Content -->
+                            <p class="text-center">Dịch vụ của nha khoa rất đa dạng và phong phú, bao gồm cả các dịch vụ
+                                phục hình răng, trồng răng giả, tẩy trắng răng, và nhiều hơn nữa. Tôi cảm thấy tin tưởng
+                                khi sử dụng dịch vụ ở đây vì tôi biết rằng tôi sẽ được hưởng lợi từ sự chuyên nghiệp và
+                                kinh nghiệm của các chuyên gia.</p>
+                            <!-- Rating -->
+                            <div style="color: rgba(251, 191, 36, 1);">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <!-- SwiperJS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+
+    <script src="/assets/js/homepage.js"></script>
 </body>
 
 </html>
