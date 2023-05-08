@@ -232,6 +232,7 @@ textarea:focus, input:focus{
 }
 
 /* Button */
+/* Custom button */
 .custom-button {
     border-radius: 8px !important;
     padding: 12px 24px !important;
@@ -240,16 +241,20 @@ textarea:focus, input:focus{
 .custom-button:hover {
     cursor: pointer;
 }
+/* Icon left */
 .custom-button-icon-left {
     border-radius: 8px;
     padding: 12px 24px 12px 16px !important;
     font-size: 16px !important;
 }
+/* Icon right */
 .custom-button-icon-right {
     border-radius: 8px;
     padding: 12px 16px 12px 24px !important;
     font-size: 16px !important;
 }
+
+/* Primary */
 .custom-button-primary {
     width: fit-content;
     color: #FFFFFF !important;
@@ -262,6 +267,22 @@ textarea:focus, input:focus{
     cursor: pointer;
     background-color: var(--main-color-hover);
 }
+
+/* Secondary */
+.custom-button-secondary {
+    width: fit-content;
+    color: #FFFFFF !important;
+    background-color: rgba(156, 163, 175, 1);
+    font-weight: 500;
+    gap: 12px;
+    transition: 300ms ease-out;
+}
+.custom-button-secondary:hover {
+    cursor: pointer;
+    background-color: rgb(101, 106, 114);
+}
+
+/* Outline primary */
 .custom-button-outline-primary {
     width: fit-content;
     color: var(--main-color);
@@ -283,11 +304,12 @@ textarea:focus, input:focus{
 
 /* Navigation list item */
 .navigation-list-item {
+    padding: 12px 24px;
     font-weight: 500;
 }
-.navigation-list-item:hover {
-    background-color: rgba(209, 213, 219, 1);
-    transition: 300ms ease-out;
+
+.navigation-list-item a {
+    font-size: 16px;
 }
 
 /* Navigation button */
@@ -309,6 +331,31 @@ textarea:focus, input:focus{
 #consultant-container-button {
     border-radius: 8px;
     box-shadow: 0px 0px 20px #00A8E8;
+}
+
+/* Link hover */
+.link a {
+    position: relative;
+    transition: 300ms ease-out;
+}
+
+.link a:hover {
+    color: #34D399 !important;
+}
+
+.link a::after {
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -8px;
+    transition: 300ms ease-out;
+}
+
+.link a:hover::after {
+    width: 100%;
 }
 
 /* Footer */

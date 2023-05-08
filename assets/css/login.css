@@ -1,0 +1,35 @@
+#photo {
+    background-image: url(/assets/img/login-signup/login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+#input-username, #input-password {
+    padding-left: 36px;
+    height: 60px;
+    border: 1px solid #334155;
+}
+
+#main-input input {
+    width: 466px;
+}
+
+#main-link a {
+    position: relative;
+}
+
+#main-link a::after {
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -8px;
+    transition: 300ms ease-out;
+}
+
+#main-link a:hover::after {
+    width: 100%;
+}
